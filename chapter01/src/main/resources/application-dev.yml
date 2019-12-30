@@ -1,0 +1,6 @@
+server:
+  port: 8081
+  ssl:
+    key-store: sang.p12
+    key-alias: tomcathttps
+    key-store-password: 123456
