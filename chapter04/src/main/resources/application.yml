@@ -1,0 +1,15 @@
+spring:
+  servlet:
+    multipart:
+      #写入磁盘的阈值
+      file-size-threshold: 0
+      #开启文件上传支持
+      enabled: true
+      #上传文件临时保存位置
+      location: C:\\temp
+      #上传的单个文件的最大大小
+      max-file-size: 1MB
+      #多文件上传时总大小
+      max-request-size: 10MB
+      #是否延迟解析
+      resolve-lazily: false
